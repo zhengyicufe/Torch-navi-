@@ -1,0 +1,335 @@
+*{ margin: 0; padding: 0; font-family: "YouYuan"}
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { margin: 0px; padding: 0px; font-size: 13px; font-weight: normal;}
+img { border-style: none;}
+li{ list-style: none; float: left}
+a{ text-decoration: none}
+body {
+  background-image: url(https://i.loli.net/2020/08/17/Lh6yU5W3C8ZRdIc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*logo区域*/
+.logo{
+  width: 100%;
+  height: 145px;
+  margin:0 auto;
+}
+.logoimg{
+  margin:0 auto;
+  width: 40px;
+  height: 40px;
+  border: 0px;
+  background-image: url('https://i.loli.net/2020/08/18/xg8mjSudczXyBwN.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.logoname{/*Torch字*/
+  /*font-weight: bold;*/
+  font-size: 65px;
+  color: #DC143C;
+	width: 200px;
+	height: 109px;
+  margin:0 auto;
+  padding-top: 40px;
+  text-align:center;
+  border: none;
+}
+
+
+/*内容区域*/
+.body{
+	width: 100%;
+	height: auto;
+	z-index: 1;
+}
+.content{
+	width: 1060px;
+  height: 370px;
+	overflow: hidden;
+	margin: 30px auto;
+}
+/*-----------------------------简洁版样式定义- 开始---------------------------------------------------*/
+.baidu-2{
+	width: 100%;
+	height: 70px;
+	margin: 0 auto;
+	background: none;
+	padding-top: 0px;
+	z-index: 1;
+	}
+.baidu-2 form{
+	width: 520px;
+	margin: 0 auto;
+}
+.baidu-2 input{
+	padding: 13px 8px;
+	opacity: 0.7;
+	font-size: 15px;
+	}
+#Select-2{
+	float: left;
+	}
+
+.Select-box-2{
+	text-align: center;
+	float: left;
+	position: relative;
+	}
+.Select-box-2 ul{
+	height: 48px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 9999;
+	background: rgba(0,139,139,0.7);
+	border: none;
+  border-radius:24px 0 0 24px;
+	overflow: hidden
+	}
+.Select-box-2 li{
+	width: 60px;
+	line-height: 46px;
+	font-size: 15px;
+  font-weight: bold;
+	color: #FFF;
+	border: 0;
+	cursor: pointer;
+	width: 80px;
+	}
+.Select-box-2 li:hover{/*鼠标滑过时效果*/
+	background: #DF7E88;
+  font-weight: bold;
+	color: #FFF;
+	}
+.Select-box-2 .this_s{/*字体*/
+	color: 	#FFF;
+  font-weight: bold;
+	width: 80px;
+	}
+.Select-box-2 .this_s:hover{
+	background: none;
+  font-weight: bold;
+	color: #FFF;
+	}
+
+	#kw-2 {
+    width: 413px;
+    outline: 0;
+    border: 1px solid #ccc;
+    background: rgba(255,255,255,0.2);
+    color: #000000;
+    padding-left: 8px;
+    font-weight: bold;
+    height: 48px;
+    box-sizing: border-box;
+}
+
+#su-2{/*Search键*/
+  font-weight: bold;
+	width: 90px;
+	background: #DC143C;
+
+	border-top: #DF7E88 1px solid;
+	border-bottom: 1px solid #DF7E88;
+	color: #FFF;
+	cursor: pointer;
+	/*去轮廓阴影*/
+	outline: none;
+	height: 48px;
+  border: none;
+	border-radius:0 24px 24px 0;
+	}
+#su-2:hover{
+  font-weight: bold;
+	background: #B22222;
+	border-bottom: 1px solid #B22222;
+	}
+#su-2:active{
+	background: #DC143C;
+	box-shadow: inset 1px 1px 3px #DC143C;
+	-webkit-box-shadow: inset 1px 1px 3px #DC143C;
+	}
+
+
+.jianjie{
+	width: 1200px;/*1170px*/
+	z-index: 1;
+}
+.jj-list{
+  background-color: rgba(255, 250, 250,0.3);
+	width: 330px;
+	margin-right: 25px;
+	float: left;
+	margin-bottom: 30px;
+  border-radius:25px;
+	z-index: 1;
+}
+.jj-list:hover{
+  background: rgba(255,250,250,0.7);
+}
+.jj-list-tit{
+  text-align: center;
+	font-size: 16px;
+	line-height: 25px;
+	color: rgb(185, 32, 55);
+	padding-left: 4px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+	z-index: 1;
+}
+.jj-list-con{
+  overflow-x: hidden; /*x轴禁止滚动*/
+  overflow-y: scroll;/*y轴滚动*/
+  height: 126px;
+	z-index: 1;
+}
+.jj-list-con::-webkit-scrollbar {
+  display: none;/*隐藏滚动条*/
+}
+.jj-list-con li{
+	width: 110px;
+}
+.link-3{/*网站字*/
+	display: block;
+	background: rgba(255, 255, 255,0);
+	color: #B22222;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	padding: 4px 0;
+	transition: all 0.2s;
+	z-index: 1;
+  border-radius:15px;
+}
+.link-3:hover{
+  color: #FFF;
+	background: rgba(220,20,60,0.8);
+	font-size: 16px;
+	font-weight: bold
+}
+
+.footer {
+	color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer1{
+	display: none;
+}
+
+
+/*-----------------------------简洁版样式定义- 结束---------------------------------------------------*/
+
+
+div#baidu {
+    width: 80px;
+    /* height: 50px; */
+    height: 1.2rem;
+    /* background-color: #fff; */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.baidu-2 form {
+    max-width: 520px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    height: 1.2rem;
+    padding: 0;
+    z-index: 2;
+}
+
+.in5 {
+    width: calc(100% - 160px);
+    position: relative;
+    box-sizing: border-box;
+}
+
+div#qingkong {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 14px;
+    color: rgba(0,139,139,1);
+}
+
+input#su-2 {
+    width: 79px;
+    box-sizing: border-box;
+}
+
+#kw-2 {
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}
+
+@media screen and (max-width: 768px) {
+	ul.keylist {
+	    width: calc(80% - 0px) !important;
+	}
+	/*整个表单宽度*/
+	.baidu-2 form{
+
+	}
+	div.in5 {
+	    width: calc(100% - 80px);
+	}
+	input#su-2{
+		position: absolute;
+    right: 0;
+	}
+}
+.keylist {
+    max-width: 360px;
+    width: calc(80% - 160px);
+    box-sizing: border-box;
+    z-index: 52;
+    margin: auto;
+}
+
+ul.keylist {
+    outline: 0;
+    background: rgba(255,255,250,0.8);
+    color: #100200;
+    font-weight: bold;
+    position: relative;
+}
+ul.keylist li {
+    float: none;
+    padding: 9px 9px;
+}
+.keylist li:hover{
+	background-color:rgba(255,220,220,0.9);
+}
+.keylist li.active{
+	background-color:rgba(255,255,250,0.8);
+}
+body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd {
+    z-index: 1;
+}
+
+.z_m_i {
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.jj-list-con li{
+	position: relative;
+	height: 42px;
+}
+
+.jj-list-con li:hover .i_r_remove{
+	display: block;
+}
